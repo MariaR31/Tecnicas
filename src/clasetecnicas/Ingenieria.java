@@ -5,14 +5,14 @@ import java.text.DecimalFormat;
 
 public class Ingenieria {
       DecimalFormat df=new DecimalFormat("#.00");
-    double promedio, parcial1, parcial2, examenfinal;
+    double promedio, parcial1, parcial2, Examenfinal;
 
     //programacion,calculo, ingles, algebra 
     public void programacion() {
         parcial1 = Double.parseDouble(JOptionPane.showInputDialog("Digite la nota del primer parcial"));
         parcial1 = Double.parseDouble(JOptionPane.showInputDialog("Digite la nota del segundo parcial"));
         parcial1 = Double.parseDouble(JOptionPane.showInputDialog("Digite la nota del Examen parcial"));
-        promedio = (parcial1 + parcial2 + examenfinal) / 3;
+        promedio = (parcial1 + parcial2 + Examenfinal) / 3;
 
         JOptionPane.showMessageDialog(null, "El promedio es : " + promedio);
     }
@@ -20,7 +20,7 @@ public class Ingenieria {
         parcial1 = Double.parseDouble(JOptionPane.showInputDialog("Digite la nota del primer parcial"));
         parcial1 = Double.parseDouble(JOptionPane.showInputDialog("Digite la nota del segundo parcial"));
         parcial1 = Double.parseDouble(JOptionPane.showInputDialog("Digite la nota del Examen parcial"));
-        promedio = (parcial1 + parcial2 + examenfinal) / 3;
+        promedio = (parcial1 + parcial2 + Examenfinal) / 3;
 
         JOptionPane.showMessageDialog(null, "El promedio es : " + promedio);
     }
@@ -29,7 +29,7 @@ public class Ingenieria {
         parcial1 = Double.parseDouble(JOptionPane.showInputDialog("Digite la nota del primer parcial"));
         parcial1 = Double.parseDouble(JOptionPane.showInputDialog("Digite la nota del segundo parcial"));
         parcial1 = Double.parseDouble(JOptionPane.showInputDialog("Digite la nota del Examen parcial"));
-        promedio = (parcial1 + parcial2 + examenfinal) / 3;
+        promedio = (parcial1 + parcial2 + Examenfinal) / 3;
 
         JOptionPane.showMessageDialog(null, "El promedio es : " + promedio);
     }
@@ -37,7 +37,7 @@ public class Ingenieria {
         parcial1 = Double.parseDouble(JOptionPane.showInputDialog("Digite la nota del primer parcial"));
         parcial1 = Double.parseDouble(JOptionPane.showInputDialog("Digite la nota del segundo parcial"));
         parcial1 = Double.parseDouble(JOptionPane.showInputDialog("Digite la nota del Examen parcial"));
-        promedio = (parcial1 + parcial2 + examenfinal) / 3;
+        promedio = (parcial1 + parcial2 + Examenfinal) / 3;
 
         JOptionPane.showMessageDialog(null, "El promedio es : " + promedio);
     }
